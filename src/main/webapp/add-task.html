@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<style>
+	body{
+		background-color: green;
+	}
+	form{
+		background-color: aliceblue;
+	}
+</style>
+<body>
+	<form action="add-task" method="post" enctype="multipart/form-data">
+<h1>Enter task details</h1>
+        <label>Task Name :</label> <input type="text" name="name" required><br><br>
+        <label>Task Description :</label> <input type="text" name="description" required><br><br>
+        <label>Image :</label> <input type="file" name="image" ><br><br>
+        <button type="submit">Add</button> <button type="reset">Cancel</button><br><br>
+</form>
+
+</body>
+</html>
